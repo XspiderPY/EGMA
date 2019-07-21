@@ -72,9 +72,9 @@ def chat_client():
         s.connect((host, port))
 
     except :
-        os.system("bash bash_apps/error.sh")
+        os.system("bash error.sh")
         sys.exit()
-    os.system("bash bash_apps/connect.sh")
+    os.system("bash con.sh")
     sys.stdout.write("\033[34m"+'\n[Me :] '+ "\033[0m"); sys.stdout.flush()
 
     while 1:
